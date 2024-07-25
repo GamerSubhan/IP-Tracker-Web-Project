@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+  <script defer src="script.js"></script>
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+</head>
+<body>
+  
+  <div id="headContainer">
+    <div style="margin-top: -1%;  color: rgba(255, 255, 255, 0);">king</div>
+    <h1 id="title">IP Address Tracker</h1>
+    <input id="searchInput" type="text" placeholder="Search for any IP address or domain">
+    <button id="searchButton"><img width="11" height="14" src="images/icon-arrow.svg"></button>
+    <div style="margin-top: 6%;  color: rgba(255, 255, 255, 0);">queen</div>
+  </div>
+
+  <div id="map"></div>
+  <div id="trackShowcase">
+    <ul>
+      <li>IP ADDRES <h2 id="ip"></h2> <hr></li>
+      <li>LOCATION <h2 id="location"></h2><hr></li>
+      <li>TIMEZONE <h2 id="timezone"></h2><hr></li>
+      <li>ISP <h2 id="isp"></h2></li>
+    </ul>
+  </div>
+
+  UTC
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

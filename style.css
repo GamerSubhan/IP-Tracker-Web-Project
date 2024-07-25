@@ -1,0 +1,138 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 10%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: rubikFont;
+    src: url("Rubik/Rubik-VariableFont_wght.ttf");
+}
+
+h1, h2, h3, p, li, input
+{
+    font-family: rubikFont;
+}
+
+#headContainer
+{
+    margin-top: -1.5%;
+    margin-right: 1.5%;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/pattern-bg-desktop.png);
+}
+
+#title
+{
+    color: white;
+    margin-top: 4%;
+    font-weight: 500;
+}
+
+#searchInput
+{
+    width: 600px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    text-indent: 25px;
+    font-size: 1.3em;
+}
+
+#searchInput:focus
+{
+    border-color: white;
+}
+
+#searchInput::placeholder
+{
+    margin-left: 10%;
+    text-indent: 25px;
+}
+
+#searchButton
+{
+    position: absolute;
+    background-color: black;
+    width: 75px;
+    height: 62px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-left: -4.9%;
+}
+
+#searchButton:hover
+{
+    cursor: pointer;
+}
+
+#searchButton:active
+{
+    background-color: hsl(0, 0%, 17%);
+}
+
+#searchButton img
+{
+    margin-top: 5%;
+}
+
+#trackShowcase
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 73%;
+    height: 140px;
+    margin-top: -34%;
+    background-color: white;
+    border-radius: 16px;
+    z-index: 90;
+}
+
+#trackShowcase ul
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 108%;
+    margin-top: 2%;
+    list-style: none;
+}
+
+#trackShowcase ul li 
+{
+    margin-left: 80%;
+    white-space: nowrap;
+    color:  hsl(0, 0%, 59%);
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+#map
+{
+    height: 440px;
+    z-index: 5;
+}
+
+hr
+{
+    width: 0.2px;
+    height: 70px;
+    background-color: hsl(0, 0%, 59%);
+    border: none;
+    transform: rotate(180deg);
+    margin-left: 300%;
+    margin-top: -7%;
+}
+
+li h2
+{
+    position: absolute;
+    color: hsl(0, 0%, 17%);
+}
+
